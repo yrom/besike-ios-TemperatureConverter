@@ -38,22 +38,22 @@ class ViewController: UIViewController {
         }
     }
     
-    override func viewWillLayoutSubviews() {
-        super.viewWillLayoutSubviews()
-        // figure out the screen size
-        let screen = UIScreen.mainScreen()
-        
-        println("screen fixed bounds:\(screen.fixedCoordinateSpace.bounds)")
-        
-        println("screen bounds:\(screen.bounds)")
-        
-        println("top layout guide: \(topLayoutGuide.length)")
-        
-        titleLabel.backgroundColor = celsiusLabel.backgroundColor
-        titleLabel.frame = CGRect(x: 16, y: topLayoutGuide.length + 16,
-            width: screen.bounds.width - 32, height: 21)
-        
-    }
+//    override func viewWillLayoutSubviews() {
+//        super.viewWillLayoutSubviews()
+//        // figure out the screen size
+//        let screen = UIScreen.mainScreen()
+//        
+//        println("screen fixed bounds:\(screen.fixedCoordinateSpace.bounds)")
+//        
+//        println("screen bounds:\(screen.bounds)")
+//        
+//        println("top layout guide: \(topLayoutGuide.length)")
+//        
+//        titleLabel.backgroundColor = celsiusLabel.backgroundColor
+//        titleLabel.frame = CGRect(x: 16, y: topLayoutGuide.length + 16,
+//            width: screen.bounds.width - 32, height: 21)
+//        
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
