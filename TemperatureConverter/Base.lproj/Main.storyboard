@@ -72,6 +72,7 @@
                         <outlet property="fahrenheitLabel" destination="4iF-O7-gx3" id="0o1-6R-QRW"/>
                         <outlet property="kelvinLabel" destination="0NT-gC-Yfs" id="8Nj-4u-ByA"/>
                         <outlet property="temperatureSlider" destination="3R2-5w-j16" id="aYQ-GQ-7PH"/>
+                        <outlet property="titleLabel" destination="zhR-Hg-W2f" id="u8W-wS-adR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
